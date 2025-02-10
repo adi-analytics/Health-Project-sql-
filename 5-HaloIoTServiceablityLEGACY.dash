@@ -1,0 +1,3487 @@
+{
+  "title": "5 - Halo \\ IoT Serviceablity (LEGACY)",
+  "desc": "",
+  "source": "5dca73b332d75606788ee5e2",
+  "type": "dashboard",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "layout": {
+    "instanceid": "C189E-5B3E-BF",
+    "container": {},
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "defaultWidth": 128,
+                    "widgetid": "6045d2fb30deff2c845e784b",
+                    "height": "160px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 915,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "196px",
+                    "defaultWidth": 128,
+                    "widgetid": "6037b0331c88d72b505a015c"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 915,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "6037adc51c88d72b505a0107",
+                    "height": 192
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 915,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "height": 192,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "6037adff1c88d72b505a0127"
+                  }
+                ],
+                "width": 35.83011583011583,
+                "stretchable": false,
+                "pxlWidth": 327.844,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "6037adc51c88d72b505a0109",
+                    "height": 192
+                  }
+                ],
+                "width": 30.270270270270274,
+                "stretchable": false,
+                "pxlWidth": 276.969,
+                "index": 1
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "height": 192,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "6037adc51c88d72b505a0108"
+                  }
+                ],
+                "width": 33.8996138996139,
+                "stretchable": false,
+                "pxlWidth": 310.18,
+                "index": 2
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": 128,
+                    "defaultWidth": 128,
+                    "widgetid": "6037b1131c88d72b505a015e"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 915,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "496px",
+                    "defaultWidth": 512,
+                    "widgetid": "6037ae841c88d72b505a012d"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 915,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "62173cda0b8fab003626b411",
+                    "height": "616px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 915,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 256,
+                    "maxHeight": 2048,
+                    "minWidth": 256,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "621748f10b8fab003626b6d4",
+                    "height": "724px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 915,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 102,
+                    "maxHeight": 1024,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "200px",
+                    "defaultWidth": 512,
+                    "widgetid": "6326c53ae60a7f00377f4407",
+                    "autoHeight": "29px"
+                  }
+                ],
+                "index": 0,
+                "stretchable": false,
+                "width": 100,
+                "pxlWidth": 915
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 915,
+        "index": 0
+      }
+    ]
+  },
+  "original": null,
+  "oid": "6037adc51c88d72b505a0103",
+  "datasource": {
+    "title": "Diagnostics_Stable",
+    "fullname": "LocalHost/Diagnostics_Stable",
+    "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+    "address": "LocalHost",
+    "database": "aDiagnosticsXwAaStable"
+  },
+  "editing": false,
+  "parentFolder": "60229f96fa1c7429b0f7b7ee",
+  "isPublic": null,
+  "filters": [
+    {
+      "instanceid": "8CF70-D93E-E1",
+      "isCascading": true,
+      "levels": [
+        {
+          "table": "ContinuesMachinesAggregated",
+          "column": "account",
+          "dim": "[ContinuesMachinesAggregated.account]",
+          "datatype": "text",
+          "merged": true,
+          "title": "account",
+          "collapsed": true,
+          "isDashboardFilter": true,
+          "panel": "scope",
+          "datasource": {
+            "title": "Diagnostics_Stable",
+            "fullname": "LocalHost/Diagnostics_Stable",
+            "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+            "address": "LocalHost",
+            "database": "aDiagnosticsXwAaStable"
+          },
+          "filter": {
+            "explicit": false,
+            "multiSelection": true,
+            "all": true
+          }
+        },
+        {
+          "table": "ContinuesMachinesAggregated",
+          "column": "facility",
+          "dim": "[ContinuesMachinesAggregated.facility]",
+          "datatype": "text",
+          "merged": true,
+          "title": "facility",
+          "datasource": {
+            "title": "Diagnostics_Stable",
+            "fullname": "LocalHost/Diagnostics_Stable",
+            "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+            "address": "LocalHost",
+            "database": "aDiagnosticsXwAaStable"
+          },
+          "collapsed": true,
+          "isDashboardFilter": true,
+          "filter": {
+            "explicit": false,
+            "multiSelection": true,
+            "all": true
+          }
+        }
+      ],
+      "model": {
+        "instanceid": "0B784-6913-AA",
+        "__store": [
+          "[ContinuesMachinesAggregated.account]",
+          "[ContinuesMachinesAggregated.facility]"
+        ]
+      },
+      "disabled": false
+    }
+  ],
+  "filterToDatasourceMapping": {},
+  "defaultFilters": [
+    {
+      "instanceid": "BD452-DBD7-D6",
+      "isCascading": true,
+      "disabled": false,
+      "levels": [
+        {
+          "table": "Dim_Tier",
+          "column": "Tier",
+          "dim": "[Dim_Tier.Tier]",
+          "datatype": "text",
+          "merged": true,
+          "title": "Tier",
+          "collapsed": true,
+          "panel": "scope",
+          "datasource": {
+            "title": "Diagnostics_Stable",
+            "fullname": "LocalHost/Diagnostics_Stable",
+            "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+            "address": "LocalHost",
+            "database": "aDiagnosticsXwAaStable"
+          },
+          "filter": {
+            "explicit": false,
+            "multiSelection": true,
+            "all": true,
+            "filter": {
+              "explicit": false,
+              "multiSelection": true,
+              "exclude": {
+                "members": [
+                  "Churned",
+                  "Demo"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "table": "company_Dim",
+          "column": "company",
+          "dim": "[company_Dim.company]",
+          "datatype": "text",
+          "merged": true,
+          "title": "company",
+          "collapsed": true,
+          "datasource": {
+            "title": "Diagnostics_Stable",
+            "fullname": "LocalHost/Diagnostics_Stable",
+            "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+            "address": "LocalHost",
+            "database": "aDiagnosticsXwAaStable"
+          },
+          "filter": {
+            "explicit": false,
+            "multiSelection": true,
+            "all": true
+          }
+        }
+      ],
+      "model": {
+        "instanceid": "80824-187B-15",
+        "__store": [
+          "[Dim_Tier.Tier]",
+          "[company_Dim.company]"
+        ]
+      }
+    }
+  ],
+  "allowChangeSubscription": false,
+  "lastOpened": null,
+  "subscription": {
+    "subscribe": false,
+    "executionPerDay": 1,
+    "schedule": "0 00 22 * * *",
+    "isDataChange": true,
+    "type": "onUpdate",
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "context": {
+      "dashboardid": "6037adc51c88d72b505a0103"
+    },
+    "startAt": "2023-07-20",
+    "tzName": "Asia/Jerusalem",
+    "timezone": -120,
+    "active": false
+  },
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "previewLayout": [],
+  "widgets": [
+    {
+      "title": "Total Machines done Serviceability test - Last 7 Days",
+      "subtype": "indicator/numeric",
+      "desc": null,
+      "source": "5e5bb6af22716829a02a421c",
+      "datasource": {
+        "title": "Diagnostics_Stable",
+        "fullname": "LocalHost/Diagnostics_Stable",
+        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+        "address": "LocalHost",
+        "database": "aDiagnosticsXwAaStable"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "machine_id",
+                  "dim": "[ContinuesMachinesAggregated.machine_id]",
+                  "datatype": "text",
+                  "merged": true,
+                  "agg": "count",
+                  "title": "Total Halo Machines (With Full System)"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "#124c87"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "timestamp",
+                  "dim": "[ContinuesMachinesAggregated.timestamp (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "title": "Days in timestamp",
+                  "level": "days",
+                  "filter": {
+                    "last": {
+                      "count": 7,
+                      "offset": 0
+                    }
+                  },
+                  "collapsed": true,
+                  "datasource": {
+                    "title": "Diagnostics_Stable",
+                    "fullname": "LocalHost/Diagnostics_Stable",
+                    "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+                    "address": "LocalHost",
+                    "database": "aDiagnosticsXwAaStable"
+                  }
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "oid": "6037adc51c88d72b505a0107",
+      "type": "indicator",
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "days_in_timestamp",
+              "title": "Days in timestamp",
+              "singular": "Days in timestamp",
+              "plural": "Days in timestamp"
+            }
+          ]
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        }
+      },
+      "instanceid": "2A045-7B97-39",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "saveDisabledTargetFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "dashboardid": "6037adc51c88d72b505a0103",
+      "viewState": {
+        "activeTab": "filters"
+      }
+    },
+    {
+      "title": "Today % of Servicable Machines - Today",
+      "subtype": "indicator/gauge",
+      "desc": null,
+      "source": "5e5bb6af22716829a02a421f",
+      "datasource": {
+        "title": "Diagnostics_Stable",
+        "fullname": "LocalHost/Diagnostics_Stable",
+        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+        "address": "LocalHost",
+        "database": "aDiagnosticsXwAaStable"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(Count([FB43A-E19]),[EC34F-A35])/Count([FB43A-E19])",
+                  "context": {
+                    "[EC34F-A35]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "is_serviceable",
+                      "dim": "[ContinuesMachinesAggregated.is_serviceable]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "is_serviceable",
+                      "filter": {
+                        "explicit": false,
+                        "multiSelection": true,
+                        "exclude": {
+                          "members": [
+                            "False"
+                          ]
+                        }
+                      },
+                      "collapsed": false,
+                      "datasource": {
+                        "title": "Diagnostics_Stable",
+                        "fullname": "LocalHost/Diagnostics_Stable",
+                        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+                        "address": "LocalHost",
+                        "database": "aDiagnosticsXwAaStable"
+                      }
+                    },
+                    "[FB43A-E19]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "machine_id",
+                      "dim": "[ContinuesMachinesAggregated.machine_id]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "machine_id"
+                    }
+                  },
+                  "title": "% Servicable Machines"
+                },
+                "format": {
+                  "mask": {
+                    "decimals": 2,
+                    "percent": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "colorIndex": 0
+                  }
+                },
+                "originalJaql": {
+                  "type": "measure",
+                  "formula": "[18373-352]/[AD3F6-3B6]",
+                  "context": {
+                    "[18373-352]": {
+                      "table": "Facility Servicable Machines.C:\\Windows\\Temp\\-1013663444.xlsx.Facility Servicable Machines",
+                      "column": "total_servicable_machines",
+                      "dim": "[Facility Servicable Machines.C:\\Windows\\Temp\\-1013663444.xlsx.Facility Servicable Machines.total_servicable_machines]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total total_servicable_machines"
+                    },
+                    "[AD3F6-3B6]": {
+                      "table": "Facility Servicable Machines.C:\\Windows\\Temp\\-1013663444.xlsx.Facility Servicable Machines",
+                      "column": "total_machines",
+                      "dim": "[Facility Servicable Machines.C:\\Windows\\Temp\\-1013663444.xlsx.Facility Servicable Machines.total_machines]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total total_machines"
+                    }
+                  },
+                  "title": "% Servicable Machines"
+                },
+                "quickFunction": false,
+                "instanceid": "0C9CB-DA04-87"
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": [
+              {
+                "jaql": {
+                  "formula": "0",
+                  "title": "0 (default)"
+                },
+                "format": {
+                  "mask": {
+                    "decimals": "auto",
+                    "percent": true
+                  }
+                },
+                "instanceid": "475B9-E6F6-04"
+              }
+            ]
+          },
+          {
+            "name": "max",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "100/100",
+                  "context": {},
+                  "title": "100/100"
+                },
+                "format": {
+                  "mask": {
+                    "decimals": "auto",
+                    "percent": true
+                  }
+                },
+                "instanceid": "A3778-A330-BA"
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "timestamp",
+                  "dim": "[ContinuesMachinesAggregated.timestamp (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "title": "Days in timestamp",
+                  "level": "days",
+                  "filter": {
+                    "last": {
+                      "count": 1,
+                      "offset": 1
+                    }
+                  },
+                  "collapsed": true,
+                  "datasource": {
+                    "title": "Diagnostics_Stable",
+                    "fullname": "LocalHost/Diagnostics_Stable",
+                    "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+                    "address": "LocalHost",
+                    "database": "aDiagnosticsXwAaStable"
+                  }
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "dateAndTime": "MM/dd/y HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "disabled": false,
+                "instanceid": "1018D-A9B3-C6"
+              }
+            ]
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "oid": "6037adc51c88d72b505a0108",
+      "type": "indicator",
+      "style": {
+        "subtype": "round",
+        "skin": "1",
+        "components": {
+          "ticks": {
+            "inactive": false,
+            "enabled": true
+          },
+          "labels": {
+            "inactive": false,
+            "enabled": true
+          },
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "days_in_timestamp",
+              "title": "Days in timestamp",
+              "singular": "Days in timestamp",
+              "plural": "Days in timestamp"
+            }
+          ]
+        }
+      },
+      "instanceid": "3CA5C-7977-FB",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "saveDisabledTargetFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "dashboardid": "6037adc51c88d72b505a0103",
+      "viewState": {
+        "activeTab": "filters"
+      },
+      "realTimeRefreshing": false
+    },
+    {
+      "title": "Not Serviceable Machines - Today",
+      "subtype": "indicator/gauge",
+      "desc": null,
+      "source": "5e5bb6af22716829a02a4220",
+      "datasource": {
+        "title": "Diagnostics_Stable",
+        "fullname": "LocalHost/Diagnostics_Stable",
+        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+        "address": "LocalHost",
+        "database": "aDiagnosticsXwAaStable"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([D1ED7-44A]),[5F47B-555])/count([D1ED7-44A])",
+                  "context": {
+                    "[7BA7D-BEF]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "is_serviceable",
+                      "dim": "[ContinuesMachinesAggregated.is_serviceable]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "is_serviceable",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "False"
+                        ]
+                      },
+                      "collapsed": false,
+                      "datasource": {
+                        "title": "Diagnostics_Stable",
+                        "fullname": "LocalHost/Diagnostics_Stable",
+                        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+                        "address": "LocalHost",
+                        "database": "aDiagnosticsXwAaStable"
+                      }
+                    },
+                    "[5F47B-555]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "is_serviceable",
+                      "dim": "[ContinuesMachinesAggregated.is_serviceable]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "is_serviceable",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "False"
+                        ]
+                      },
+                      "collapsed": false,
+                      "datasource": {
+                        "title": "Diagnostics_Stable",
+                        "fullname": "LocalHost/Diagnostics_Stable",
+                        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+                        "address": "LocalHost",
+                        "database": "aDiagnosticsXwAaStable"
+                      }
+                    },
+                    "[D1ED7-44A]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "machine_id",
+                      "dim": "[ContinuesMachinesAggregated.machine_id]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "machine_id"
+                    }
+                  },
+                  "title": "# Not Servicable Machines"
+                },
+                "format": {
+                  "mask": {
+                    "decimals": "auto",
+                    "percent": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "#fc7570",
+                    "isHandPickedColor": true
+                  }
+                },
+                "field": {
+                  "id": "(count([F7A02-AB9]),[F2DAB-6B4])",
+                  "index": 1
+                },
+                "instanceid": "29216-5C74-32"
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": [
+              {
+                "jaql": {
+                  "formula": "0",
+                  "title": "0 (default)"
+                },
+                "format": {
+                  "mask": {
+                    "decimals": "auto",
+                    "percent": true
+                  }
+                },
+                "instanceid": "F85E9-7949-3B"
+              }
+            ]
+          },
+          {
+            "name": "max",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "1",
+                  "context": {},
+                  "title": "1"
+                },
+                "format": {
+                  "mask": {
+                    "decimals": "auto",
+                    "percent": true
+                  }
+                },
+                "instanceid": "3B918-63AB-26"
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "timestamp",
+                  "dim": "[ContinuesMachinesAggregated.timestamp (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "title": "Days in timestamp",
+                  "level": "days",
+                  "filter": {
+                    "last": {
+                      "count": 1,
+                      "offset": 1
+                    }
+                  },
+                  "collapsed": true,
+                  "datasource": {
+                    "title": "Diagnostics_Stable",
+                    "fullname": "LocalHost/Diagnostics_Stable",
+                    "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+                    "address": "LocalHost",
+                    "database": "aDiagnosticsXwAaStable"
+                  }
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "dateAndTime": "MM/dd/y HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "instanceid": "E1F37-6269-FF"
+              }
+            ]
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "oid": "6037adc51c88d72b505a0109",
+      "type": "indicator",
+      "style": {
+        "subtype": "round",
+        "skin": "2",
+        "components": {
+          "ticks": {
+            "inactive": false,
+            "enabled": true
+          },
+          "labels": {
+            "inactive": false,
+            "enabled": true
+          },
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "narration": {
+          "labels": [
+            {
+              "id": "days_in_timestamp",
+              "title": "Days in timestamp",
+              "singular": "Days in timestamp",
+              "plural": "Days in timestamp"
+            }
+          ]
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        }
+      },
+      "instanceid": "2A045-7B97-39",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "saveDisabledTargetFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "dashboardid": "6037adc51c88d72b505a0103",
+      "viewState": {
+        "activeTab": "filters"
+      },
+      "realTimeRefreshing": false
+    },
+    {
+      "title": "Not Serviceable Machines - Today",
+      "subtype": "indicator/numeric",
+      "oid": "6037adff1c88d72b505a0127",
+      "desc": null,
+      "source": "5e5bb6af22716829a02a421c",
+      "datasource": {
+        "title": "Diagnostics_Stable",
+        "fullname": "LocalHost/Diagnostics_Stable",
+        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+        "address": "LocalHost",
+        "database": "aDiagnosticsXwAaStable"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([02091-BAC]),[54ADF-31B])",
+                  "context": {
+                    "[54ADF-31B]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "is_serviceable",
+                      "dim": "[ContinuesMachinesAggregated.is_serviceable]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "is_serviceable",
+                      "filter": {
+                        "explicit": false,
+                        "multiSelection": true,
+                        "exclude": {
+                          "members": [
+                            "True"
+                          ]
+                        }
+                      },
+                      "collapsed": false,
+                      "datasource": {
+                        "title": "Diagnostics_Stable",
+                        "fullname": "LocalHost/Diagnostics_Stable",
+                        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+                        "address": "LocalHost",
+                        "database": "aDiagnosticsXwAaStable"
+                      }
+                    },
+                    "[02091-BAC]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "machine_id",
+                      "dim": "[ContinuesMachinesAggregated.machine_id]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "Machine Id"
+                    }
+                  },
+                  "title": "Not Serviceable Machines"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "#fc7570",
+                    "isHandPickedColor": true
+                  }
+                },
+                "instanceid": "D1D52-7F40-85"
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "timestamp",
+                  "dim": "[ContinuesMachinesAggregated.timestamp (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "title": "Days in timestamp",
+                  "level": "days",
+                  "filter": {
+                    "last": {
+                      "count": 1,
+                      "offset": 1
+                    }
+                  },
+                  "collapsed": true,
+                  "datasource": {
+                    "title": "Diagnostics_Stable",
+                    "fullname": "LocalHost/Diagnostics_Stable",
+                    "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+                    "address": "LocalHost",
+                    "database": "aDiagnosticsXwAaStable"
+                  }
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "dateAndTime": "MM/dd/y HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "instanceid": "A7400-7A74-60"
+              }
+            ]
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "type": "indicator",
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "days_in_timestamp",
+              "title": "Days in timestamp",
+              "singular": "Days in timestamp",
+              "plural": "Days in timestamp"
+            }
+          ]
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        }
+      },
+      "instanceid": "2A045-7B97-39",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "saveDisabledTargetFilters": false,
+        "drillToDashboardByName": false
+      },
+      "viewState": {
+        "activeTab": "filters"
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "dashboardid": "6037adc51c88d72b505a0103",
+      "realTimeRefreshing": false
+    },
+    {
+      "title": "% Serviceable Machines Overtime",
+      "subtype": "line/spline",
+      "oid": "6037ae841c88d72b505a012d",
+      "desc": null,
+      "source": "5e5bb6af22716829a02a4223",
+      "datasource": {
+        "title": "Diagnostics_Stable",
+        "fullname": "LocalHost/Diagnostics_Stable",
+        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+        "address": "LocalHost",
+        "database": "aDiagnosticsXwAaStable"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "timestamp",
+                  "dim": "[ContinuesMachinesAggregated.timestamp (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "days",
+                  "title": "Days in timestamp"
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "dateAndTime": "MM/dd/y HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ],
+                "instanceid": "11438-9FD8-65"
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([C1D85-DFF]),[3DFE5-07A])/count([C1D85-DFF])",
+                  "context": {
+                    "[3DFE5-07A]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "is_serviceable",
+                      "dim": "[ContinuesMachinesAggregated.is_serviceable]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "is_serviceable",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "True"
+                        ]
+                      },
+                      "collapsed": false,
+                      "datasource": {
+                        "title": "Diagnostics_Stable",
+                        "fullname": "LocalHost/Diagnostics_Stable",
+                        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+                        "address": "LocalHost",
+                        "database": "aDiagnosticsXwAaStable"
+                      }
+                    },
+                    "[0E113-C9A]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "is_serviceable",
+                      "dim": "[ContinuesMachinesAggregated.is_serviceable]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "is_serviceable",
+                      "filter": {
+                        "explicit": false,
+                        "multiSelection": true,
+                        "exclude": {
+                          "members": [
+                            "True"
+                          ]
+                        }
+                      },
+                      "collapsed": false,
+                      "datasource": {
+                        "title": "Diagnostics_Stable",
+                        "fullname": "LocalHost/Diagnostics_Stable",
+                        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+                        "address": "LocalHost",
+                        "database": "aDiagnosticsXwAaStable"
+                      }
+                    },
+                    "[C1D85-DFF]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "machine_id",
+                      "dim": "[ContinuesMachinesAggregated.machine_id]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "machine_id"
+                    }
+                  },
+                  "title": "% Serviceble Machines"
+                },
+                "format": {
+                  "mask": {
+                    "decimals": "auto",
+                    "percent": true,
+                    "percentMultiplier": 100
+                  },
+                  "color_bkp": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "#00cee6"
+                  }
+                },
+                "instanceid": "90272-884C-75",
+                "statisticalModels": {
+                  "trend": {
+                    "isEnabled": true,
+                    "isViewerDisabled": false,
+                    "trendType": "linear",
+                    "ignoreAnomalies": false,
+                    "trendOnForecast": false,
+                    "compare": {
+                      "isEnabled": false,
+                      "period": "year"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "type": "chart/line",
+      "style": {
+        "lineWidth": {
+          "width": "bold"
+        },
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0
+        },
+        "markers": {
+          "enabled": true,
+          "fill": "hollow",
+          "size": "small"
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "min": ""
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": false,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": false,
+          "templateMainYHasGridLines": true
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "days_in_timestamp",
+              "title": "Days in timestamp",
+              "singular": "Days in timestamp",
+              "plural": "Days in timestamp"
+            }
+          ]
+        }
+      },
+      "instanceid": "FB007-BF39-29",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "saveDisabledTargetFilters": false,
+        "drillToDashboardByName": false
+      },
+      "cumSettings": [],
+      "viewState": {
+        "activeTab": "filters"
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+          "min": 661,
+          "max": 684
+        },
+        "aiFeatures": [
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "% Serviceble Machines"
+                ],
+                "value": "% Serviceble Machines"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ]
+      },
+      "dashboardid": "6037adc51c88d72b505a0103"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "subtype": "richtexteditor",
+      "oid": "6037b0331c88d72b505a015c",
+      "desc": null,
+      "source": null,
+      "datasource": {
+        "title": "Diagnostics_Stable",
+        "fullname": "LocalHost/Diagnostics_Stable",
+        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+        "address": "LocalHost",
+        "database": "aDiagnosticsXwAaStable"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": []
+      },
+      "type": "richtexteditor",
+      "style": {
+        "content": {
+          "html": "<font style=\"font-weight: bold;\"><div style=\"text-align: left;\"><font size=\"6\">Serviceable Machines Metric&nbsp;<font color=\"#000000\"><font style=\"text-align: center;\"><span style=\"caret-color: rgb(255, 255, 255);\"><b style=\"\">(</b></span></font><b style=\"text-align: center; caret-color: rgb(255, 255, 255);\">LEGACY</b><font style=\"text-align: center;\"><span style=\"caret-color: rgb(255, 255, 255);\"><b style=\"\">)</b></span></font></font>&nbsp;-&nbsp;</font></div></font><font size=\"6\"><div style=\"text-align: left;\">Halo Machines at Risk to get Augury Machine Health Services</div></font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#ffffff",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "54DBE-3DF3-61",
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "6037adc51c88d72b505a0103"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "subtype": "richtexteditor",
+      "oid": "6037b1131c88d72b505a015e",
+      "desc": null,
+      "source": null,
+      "datasource": {
+        "title": "Diagnostics_Stable",
+        "fullname": "LocalHost/Diagnostics_Stable",
+        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+        "address": "LocalHost",
+        "database": "aDiagnosticsXwAaStable"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": []
+      },
+      "type": "richtexteditor",
+      "style": {
+        "content": {
+          "html": "<font size=\"5\">Serviceable Machines Definition (LEGACY) - <br>At least 50% of the Halo machine eps are sending enough vibration data (12%) in the last 24 hours.&nbsp;</font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "A7D44-7C57-79",
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "6037adc51c88d72b505a0103"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "subtype": "richtexteditor",
+      "oid": "6045d2fb30deff2c845e784b",
+      "desc": null,
+      "source": null,
+      "datasource": {
+        "title": "Diagnostics_Stable",
+        "fullname": "LocalHost/Diagnostics_Stable",
+        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+        "address": "LocalHost",
+        "database": "aDiagnosticsXwAaStable"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": []
+      },
+      "type": "richtexteditor",
+      "style": {
+        "content": {
+          "html": "<font size=\"7\" color=\"#ffffff\"><span style=\"caret-color: rgb(255, 255, 255);\"><b>Halo IoT Serviceability <br>(</b></span></font><b style=\"color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);\"><font size=\"7\">LEGACY</font></b><font size=\"7\" color=\"#ffffff\"><span style=\"caret-color: rgb(255, 255, 255);\"><b>)</b></span></font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#124c87",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "54DBE-3DF3-61",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false
+      },
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "6037adc51c88d72b505a0103"
+    },
+    {
+      "title": "% Serviceable Machines - Account Level - Today",
+      "type": "chart/column",
+      "subtype": "column/classic",
+      "oid": "62173cda0b8fab003626b411",
+      "desc": null,
+      "source": null,
+      "datasource": {
+        "title": "Diagnostics_Stable",
+        "fullname": "LocalHost/Diagnostics_Stable",
+        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+        "address": "LocalHost",
+        "database": "aDiagnosticsXwAaStable"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "timestamp",
+                  "dim": "[ContinuesMachinesAggregated.timestamp (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "days",
+                  "title": "Days in timestamp"
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "MM-dd-yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm"
+                  },
+                  "continuous": false
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ],
+                "instanceid": "C1676-3C28-20"
+              },
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "account",
+                  "dim": "[ContinuesMachinesAggregated.account]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "account"
+                },
+                "format": {
+                  "continuous": false
+                },
+                "instanceid": "BBB4E-670C-7C"
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([C1D85-DFF]),[3DFE5-07A])/count([C1D85-DFF])",
+                  "context": {
+                    "[3DFE5-07A]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "is_serviceable",
+                      "dim": "[ContinuesMachinesAggregated.is_serviceable]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "is_serviceable",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "True"
+                        ]
+                      },
+                      "collapsed": false,
+                      "datasource": {
+                        "title": "Diagnostics_Stable",
+                        "fullname": "LocalHost/Diagnostics_Stable",
+                        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+                        "address": "LocalHost",
+                        "database": "aDiagnosticsXwAaStable"
+                      }
+                    },
+                    "[0E113-C9A]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "is_serviceable",
+                      "dim": "[ContinuesMachinesAggregated.is_serviceable]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "is_serviceable",
+                      "filter": {
+                        "explicit": false,
+                        "multiSelection": true,
+                        "exclude": {
+                          "members": [
+                            "True"
+                          ]
+                        }
+                      },
+                      "collapsed": false,
+                      "datasource": {
+                        "title": "Diagnostics_Stable",
+                        "fullname": "LocalHost/Diagnostics_Stable",
+                        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+                        "address": "LocalHost",
+                        "database": "aDiagnosticsXwAaStable"
+                      }
+                    },
+                    "[C1D85-DFF]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "machine_id",
+                      "dim": "[ContinuesMachinesAggregated.machine_id]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "machine_id"
+                    }
+                  },
+                  "title": "% Serviceble Machines",
+                  "sort": "desc"
+                },
+                "format": {
+                  "mask": {
+                    "decimals": "auto",
+                    "percent": true,
+                    "percentMultiplier": 100
+                  },
+                  "color": {
+                    "type": "color",
+                    "colorIndex": 0
+                  }
+                },
+                "instanceid": "8DE54-D3FD-89"
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "timestamp",
+                  "dim": "[ContinuesMachinesAggregated.timestamp (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "days",
+                  "title": "Months in timestamp",
+                  "filter": {
+                    "last": {
+                      "count": 1,
+                      "offset": 1
+                    }
+                  },
+                  "collapsed": true,
+                  "datasource": {
+                    "title": "Diagnostics_Stable",
+                    "fullname": "LocalHost/Diagnostics_Stable",
+                    "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+                    "address": "LocalHost",
+                    "database": "aDiagnosticsXwAaStable"
+                  }
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "dateAndTime": "MM/dd/y HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "instanceid": "2DFFB-483B-82"
+              }
+            ]
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0,
+          "labels": {
+            "enabled": false,
+            "stacked": false,
+            "stackedPercentage": false,
+            "types": {
+              "count": false,
+              "relative": false,
+              "percentage": false,
+              "totals": false
+            }
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "min": 0,
+          "max": 1,
+          "hideMinMax": false
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": false,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": false,
+          "templateMainYHasGridLines": true,
+          "hideMinMax": false
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "lineWidth": {
+          "width": "bold"
+        },
+        "markers": {
+          "enabled": false,
+          "fill": "hollow",
+          "size": "small"
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "days_in_timestamp",
+              "title": "Days in timestamp",
+              "singular": "Days in timestamp",
+              "plural": "Days in timestamp"
+            },
+            {
+              "id": "account",
+              "title": "account",
+              "singular": "account",
+              "plural": "account"
+            },
+            {
+              "id": "months_in_timestamp",
+              "title": "Months in timestamp",
+              "singular": "Months in timestamp",
+              "plural": "Months in timestamp"
+            }
+          ]
+        }
+      },
+      "instanceid": "7CFD3-53FA-59",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "saveDisabledTargetFilters": false,
+        "drillToDashboardByName": false
+      },
+      "cumSettings": [],
+      "viewState": {
+        "activeTab": "filters"
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "aiFeatures": [
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "% Serviceble Machines"
+                ],
+                "value": "% Serviceble Machines"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "selectorLocked": false,
+        "previousScrollerLocation": {
+          "min": 97,
+          "max": 134
+        }
+      },
+      "dashboardid": "6037adc51c88d72b505a0103",
+      "realTimeRefreshing": false
+    },
+    {
+      "title": "% Serviceable Machines - Facility Level Today - All",
+      "type": "tablewidgetagg",
+      "subtype": "tablewidgetagg",
+      "oid": "621748f10b8fab003626b6d4",
+      "desc": null,
+      "source": null,
+      "datasource": {
+        "title": "Diagnostics_Stable",
+        "fullname": "LocalHost/Diagnostics_Stable",
+        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+        "address": "LocalHost",
+        "database": "aDiagnosticsXwAaStable"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "columns",
+            "items": [
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "facility",
+                  "dim": "[ContinuesMachinesAggregated.facility]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "facility"
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[ContinuesMachinesAggregated.facility]",
+                  "index": 0
+                },
+                "instanceid": "544A8-DEA3-F3"
+              },
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "account",
+                  "dim": "[ContinuesMachinesAggregated.account]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "account"
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[ContinuesMachinesAggregated.account]",
+                  "index": 1
+                },
+                "instanceid": "DA2D7-7D25-10"
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([E42F0-AE6]),[B8CBF-538])/count([E42F0-AE6])",
+                  "context": {
+                    "[B8CBF-538]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "is_serviceable",
+                      "dim": "[ContinuesMachinesAggregated.is_serviceable]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "is_serviceable",
+                      "filter": {
+                        "explicit": false,
+                        "multiSelection": true,
+                        "exclude": {
+                          "members": [
+                            "False"
+                          ]
+                        }
+                      },
+                      "collapsed": true,
+                      "datasource": {
+                        "title": "Diagnostics_Stable",
+                        "fullname": "LocalHost/Diagnostics_Stable",
+                        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+                        "address": "LocalHost",
+                        "database": "aDiagnosticsXwAaStable"
+                      }
+                    },
+                    "[E42F0-AE6]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "machine_id",
+                      "dim": "[ContinuesMachinesAggregated.machine_id]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "Machine Id"
+                    }
+                  },
+                  "title": "% Serviceble Machines",
+                  "sort": "asc"
+                },
+                "format": {
+                  "mask": {
+                    "decimals": "auto",
+                    "percent": true
+                  }
+                },
+                "instanceid": "EC6C5-9366-78"
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([93F5E-96C]),[DCAE2-E10])\n",
+                  "context": {
+                    "[DCAE2-E10]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "is_serviceable",
+                      "dim": "[ContinuesMachinesAggregated.is_serviceable]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "is_serviceable",
+                      "filter": {
+                        "explicit": false,
+                        "multiSelection": true,
+                        "exclude": {
+                          "members": [
+                            "False"
+                          ]
+                        }
+                      },
+                      "collapsed": true,
+                      "datasource": {
+                        "title": "Diagnostics_Stable",
+                        "fullname": "LocalHost/Diagnostics_Stable",
+                        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+                        "address": "LocalHost",
+                        "database": "aDiagnosticsXwAaStable"
+                      }
+                    },
+                    "[93F5E-96C]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "machine_id",
+                      "dim": "[ContinuesMachinesAggregated.machine_id]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "Machine Id"
+                    }
+                  },
+                  "title": "Total Serviceble Halo Machines"
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": "auto",
+                    "number": {
+                      "separated": true
+                    }
+                  }
+                },
+                "instanceid": "26B1E-8B88-CC"
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "count([F6B5E-267])",
+                  "context": {
+                    "[6A221-C62]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "is_serviceable",
+                      "dim": "[ContinuesMachinesAggregated.is_serviceable]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "is_serviceable",
+                      "filter": {
+                        "explicit": false,
+                        "multiSelection": true,
+                        "exclude": {
+                          "members": [
+                            "False"
+                          ]
+                        }
+                      },
+                      "collapsed": true,
+                      "datasource": {
+                        "title": "Diagnostics_Stable",
+                        "fullname": "LocalHost/Diagnostics_Stable",
+                        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+                        "address": "LocalHost",
+                        "database": "aDiagnosticsXwAaStable"
+                      }
+                    },
+                    "[F6B5E-267]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "machine_id",
+                      "dim": "[ContinuesMachinesAggregated.machine_id]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "Machine Id"
+                    }
+                  },
+                  "title": "Total Halo Machines"
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": "auto",
+                    "number": {
+                      "separated": true
+                    }
+                  }
+                },
+                "instanceid": "275E3-F87E-22"
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "timestamp",
+                  "dim": "[ContinuesMachinesAggregated.timestamp (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "days",
+                  "title": "Months in timestamp",
+                  "filter": {
+                    "last": {
+                      "count": 1,
+                      "offset": 1
+                    }
+                  },
+                  "collapsed": true,
+                  "sort": null,
+                  "datasource": {
+                    "title": "Diagnostics_Stable",
+                    "fullname": "LocalHost/Diagnostics_Stable",
+                    "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+                    "address": "LocalHost",
+                    "database": "aDiagnosticsXwAaStable"
+                  }
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "dateAndTime": "MM/dd/y HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "panel": "scope",
+                "instanceid": "CEF63-B902-18"
+              }
+            ]
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "borders/all": true,
+        "borders/grid": false,
+        "borders/rows": false,
+        "borders/columns": false,
+        "width/content": true,
+        "width/window": false,
+        "colors/headers": true,
+        "colors/rows": true,
+        "colors/columns": false,
+        "wordwrap/headers": true,
+        "wordwrap/rows": false,
+        "scroll": false,
+        "pageSize": 25,
+        "tableState": {
+          "time": 1645693278280,
+          "start": 0,
+          "length": 25,
+          "order": [
+            [
+              0,
+              "asc"
+            ]
+          ],
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          },
+          "columns": [
+            {
+              "visible": true,
+              "search": {
+                "search": "",
+                "smart": true,
+                "regex": false,
+                "caseInsensitive": true
+              }
+            },
+            {
+              "visible": true,
+              "search": {
+                "search": "",
+                "smart": true,
+                "regex": false,
+                "caseInsensitive": true
+              }
+            },
+            {
+              "visible": true,
+              "search": {
+                "search": "",
+                "smart": true,
+                "regex": false,
+                "caseInsensitive": true
+              }
+            },
+            {
+              "visible": true,
+              "search": {
+                "search": "",
+                "smart": true,
+                "regex": false,
+                "caseInsensitive": true
+              }
+            },
+            {
+              "visible": true,
+              "search": {
+                "search": "",
+                "smart": true,
+                "regex": false,
+                "caseInsensitive": true
+              }
+            }
+          ],
+          "colResize": {
+            "columns": [
+              "182.797px",
+              "187.516px",
+              "165.188px",
+              "137.047px",
+              "143.438px"
+            ],
+            "tableSize": 815.984
+          },
+          "iScrollerTopRow": 0,
+          "iScroller": 0,
+          "headers": [
+            {
+              "title": "facility",
+              "dim": "[ContinuesMachinesAggregated.facility]",
+              "datatype": "text"
+            },
+            {
+              "title": "account",
+              "dim": "[ContinuesMachinesAggregated.account]",
+              "datatype": "text"
+            },
+            {
+              "title": "% Serviceble Machines",
+              "formula": "(count([E42F0-AE6]),[B8CBF-538])/count([E42F0-AE6])"
+            },
+            {
+              "title": "Total Serviceble Halo Machines",
+              "formula": "(count([93F5E-96C]),[DCAE2-E10])\n"
+            },
+            {
+              "title": "Total Halo Machines",
+              "formula": "count([F6B5E-267])"
+            }
+          ]
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "facility",
+              "title": "facility",
+              "singular": "facility",
+              "plural": "facility"
+            },
+            {
+              "id": "account",
+              "title": "account",
+              "singular": "account",
+              "plural": "account"
+            },
+            {
+              "id": "months_in_timestamp",
+              "title": "Months in timestamp",
+              "singular": "Months in timestamp",
+              "plural": "Months in timestamp"
+            }
+          ]
+        }
+      },
+      "instanceid": "9B7C6-75A4-EB",
+      "viewState": {
+        "activeTab": "filters"
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "triggersDomready": true,
+        "selector": false,
+        "dataTypes": {
+          "dimensions": true,
+          "measures": false,
+          "filter": false
+        },
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "dashboardid": "6037adc51c88d72b505a0103",
+      "realTimeRefreshing": false
+    },
+    {
+      "title": "Not Serviceable Machines List (Today)",
+      "type": "pivot2",
+      "subtype": "pivot",
+      "oid": "6326c53ae60a7f00377f4407",
+      "desc": null,
+      "source": "5e5bb6af22716829a02a4219",
+      "datasource": {
+        "title": "Diagnostics_Stable",
+        "fullname": "LocalHost/Diagnostics_Stable",
+        "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+        "address": "LocalHost",
+        "database": "aDiagnosticsXwAaStable"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "account",
+                  "dim": "[ContinuesMachinesAggregated.account]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "account"
+                },
+                "field": {
+                  "id": "[ContinuesMachinesAggregated.account]",
+                  "index": 0
+                },
+                "format": {
+                  "width": 100
+                },
+                "panel": "rows",
+                "instanceid": "E670C-A27E-99"
+              },
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "facility",
+                  "dim": "[ContinuesMachinesAggregated.facility]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "facility"
+                },
+                "field": {
+                  "id": "[ContinuesMachinesAggregated.facility]",
+                  "index": 1
+                },
+                "format": {
+                  "width": 159
+                },
+                "panel": "rows",
+                "instanceid": "923D8-16C2-E4"
+              },
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "building",
+                  "dim": "[ContinuesMachinesAggregated.building]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "building"
+                },
+                "field": {
+                  "id": "[ContinuesMachinesAggregated.building]",
+                  "index": 2
+                },
+                "format": {
+                  "width": 190
+                },
+                "panel": "rows",
+                "instanceid": "35CBC-0AE9-94"
+              },
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "machine_name",
+                  "dim": "[ContinuesMachinesAggregated.machine_name]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "machine_name"
+                },
+                "field": {
+                  "id": "[ContinuesMachinesAggregated.machine_name]",
+                  "index": 3
+                },
+                "format": {
+                  "width": 169
+                },
+                "panel": "rows",
+                "instanceid": "02021-2202-94"
+              },
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "machine_id",
+                  "dim": "[ContinuesMachinesAggregated.machine_id]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "machine_id"
+                },
+                "field": {
+                  "id": "[ContinuesMachinesAggregated.machine_id]",
+                  "index": 4
+                },
+                "format": {
+                  "width": 213
+                },
+                "panel": "rows",
+                "instanceid": "E8006-A291-F6"
+              },
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "is_serviceable",
+                  "dim": "[ContinuesMachinesAggregated.is_serviceable]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "is_serviceable"
+                },
+                "instanceid": "D5065-161B-75",
+                "panel": "rows",
+                "field": {
+                  "id": "[ContinuesMachinesAggregated.is_serviceable]_count",
+                  "index": 5
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "Installed minus Sampled",
+                  "dim": "[ContinuesMachinesAggregated.Installed minus Sampled]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Not Sampled eps"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "condition",
+                    "conditions": [
+                      {
+                        "color": "#fc7570",
+                        "operator": "≥",
+                        "expression": "1"
+                      },
+                      {
+                        "color": "#6eda55",
+                        "operator": "<",
+                        "expression": "1"
+                      }
+                    ]
+                  }
+                },
+                "field": {
+                  "id": "[ContinuesMachinesAggregated.Installed minus Sampled]_sum",
+                  "index": 6
+                },
+                "panel": "measures",
+                "instanceid": "E1DD7-CABA-E1"
+              },
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "Installed minus Communicated",
+                  "dim": "[ContinuesMachinesAggregated.Installed minus Communicated]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Not Communicated eps"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "condition",
+                    "conditions": [
+                      {
+                        "color": "#fc7570",
+                        "operator": "≥",
+                        "expression": "1"
+                      },
+                      {
+                        "color": "#6eda55",
+                        "operator": "<",
+                        "expression": "1"
+                      }
+                    ]
+                  },
+                  "width": 128
+                },
+                "field": {
+                  "id": "[ContinuesMachinesAggregated.Installed minus Communicated]_sum",
+                  "index": 7
+                },
+                "panel": "measures",
+                "instanceid": "22A06-B3F3-31"
+              },
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "mapped_eps",
+                  "dim": "[ContinuesMachinesAggregated.mapped_eps]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Mapped eps"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color"
+                  }
+                },
+                "field": {
+                  "id": "[ContinuesMachinesAggregated.mapped_eps]_sum",
+                  "index": 8
+                },
+                "panel": "measures",
+                "instanceid": "ABDEA-B75F-22"
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "SUM([5A6A9-DF4])/sum([44754-687])",
+                  "context": {
+                    "[5A6A9-DF4]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "Installed minus Sampled",
+                      "dim": "[ContinuesMachinesAggregated.Installed minus Sampled]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total Installed minus Sampled"
+                    },
+                    "[44754-687]": {
+                      "table": "ContinuesMachinesAggregated",
+                      "column": "mapped_eps",
+                      "dim": "[ContinuesMachinesAggregated.mapped_eps]",
+                      "datatype": "numeric",
+                      "title": "Mapped Eps"
+                    }
+                  },
+                  "sort": "desc",
+                  "sortDetails": {
+                    "field": 6,
+                    "dir": "desc",
+                    "sortingLastDimension": true,
+                    "initialized": true
+                  },
+                  "datatype": "numeric",
+                  "title": "Not Active (Data) Eps %"
+                },
+                "format": {
+                  "mask": {
+                    "decimals": "auto",
+                    "percent": true
+                  },
+                  "color": {
+                    "type": "color"
+                  }
+                },
+                "field": {
+                  "id": "SUM([5A6A9-DF4])/sum([44754-687])",
+                  "index": 9
+                },
+                "panel": "measures",
+                "instanceid": "E6755-857B-40"
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "is_serviceable",
+                  "dim": "[ContinuesMachinesAggregated.is_serviceable]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "is_serviceable",
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "exclude": {
+                      "members": [
+                        "True"
+                      ]
+                    }
+                  },
+                  "collapsed": false,
+                  "datasource": {
+                    "title": "Diagnostics_Stable",
+                    "fullname": "LocalHost/Diagnostics_Stable",
+                    "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+                    "address": "LocalHost",
+                    "database": "aDiagnosticsXwAaStable"
+                  },
+                  "sort": null
+                },
+                "panel": "scope",
+                "instanceid": "BBEA3-8325-F4"
+              },
+              {
+                "jaql": {
+                  "table": "ContinuesMachinesAggregated",
+                  "column": "timestamp",
+                  "dim": "[ContinuesMachinesAggregated.timestamp (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "title": "Days in timestamp",
+                  "level": "days",
+                  "filter": {
+                    "last": {
+                      "count": 1,
+                      "offset": 1
+                    }
+                  },
+                  "collapsed": true,
+                  "sort": null,
+                  "datasource": {
+                    "title": "Diagnostics_Stable",
+                    "fullname": "LocalHost/Diagnostics_Stable",
+                    "id": "aLOCALHOST_aDIAGNOSTICSXwAaSTABLE",
+                    "address": "LocalHost",
+                    "database": "aDiagnosticsXwAaStable"
+                  }
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "dateAndTime": "MM/dd/y HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "panel": "scope",
+                "instanceid": "89E16-FCFC-88"
+              }
+            ]
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "account",
+              "title": "account",
+              "singular": "account",
+              "plural": "account"
+            },
+            {
+              "id": "facility",
+              "title": "facility",
+              "singular": "facility",
+              "plural": "facility"
+            },
+            {
+              "id": "building",
+              "title": "building",
+              "singular": "building",
+              "plural": "building"
+            },
+            {
+              "id": "machine_name",
+              "title": "machine_name",
+              "singular": "machine_name",
+              "plural": "machine_name"
+            },
+            {
+              "id": "machine_id",
+              "title": "machine_id",
+              "singular": "machine_id",
+              "plural": "machine_id"
+            },
+            {
+              "id": "is_serviceable",
+              "title": "is_serviceable",
+              "singular": "is_serviceable",
+              "plural": "is_serviceable"
+            },
+            {
+              "id": "days_in_timestamp",
+              "title": "Days in timestamp",
+              "singular": "Days in timestamp",
+              "plural": "Days in timestamp"
+            }
+          ]
+        },
+        "scroll": false
+      },
+      "instanceid": "44BA8-820A-7F",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "saveDisabledTargetFilters": false,
+        "drillToDashboardByName": false
+      },
+      "viewState": {
+        "activeTab": "filters"
+      },
+      "currentPage": 9,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "selectorLocked": false,
+        "imageColumns": []
+      },
+      "dashboardid": "6037adc51c88d72b505a0103",
+      "realTimeRefreshing": false
+    }
+  ],
+  "hierarchies": []
+}

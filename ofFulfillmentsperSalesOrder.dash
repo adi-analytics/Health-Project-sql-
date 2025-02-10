@@ -1,0 +1,3598 @@
+{
+  "title": "# of Fulfillments per Sales Order",
+  "oid": "627181d2485e3400365ca708",
+  "desc": "",
+  "source": "67a865ef690f12623f14cdcb",
+  "type": "dashboard",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "layout": {
+    "instanceid": "C3DB9-BAC0-C2",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "height": "216px",
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "64553f190a2d8d003609bf4a"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 671.5,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "216px",
+                    "defaultWidth": 512,
+                    "widgetid": "645540050a2d8d003609bf52",
+                    "autoHeight": "202px"
+                  }
+                ],
+                "width": 50.00000000000002,
+                "stretchable": false,
+                "pxlWidth": 671.5,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "646534ba0a2d8d00360aac8f",
+                    "height": "238px",
+                    "autoHeight": "238px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1343,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 102,
+                    "maxHeight": 1024,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "560px",
+                    "defaultWidth": 512,
+                    "widgetid": "62b5fcb7485e3400365ee73f",
+                    "autoHeight": "737px"
+                  }
+                ],
+                "index": 0,
+                "stretchable": false,
+                "width": 58.25286223198083,
+                "pxlWidth": 782.328
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 102,
+                    "maxHeight": 1024,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "560px",
+                    "defaultWidth": 512,
+                    "widgetid": "62b5fcba485e3400365ee741"
+                  }
+                ],
+                "width": 41.74713776801917,
+                "stretchable": false,
+                "pxlWidth": 560.656,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "6346c603e60a7f003780401a",
+                    "height": "372px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1343,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "645541bb0a2d8d003609bf63",
+                    "height": "592px",
+                    "autoHeight": "254px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1343,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "height": "772px",
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "646bbb7d0a2d8d00360b2138",
+                    "autoHeight": "772px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1343,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1343,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "dataExploration": false,
+  "lastOpened": null,
+  "datasource": {
+    "fullname": "localhost/Operations",
+    "id": "localhost_aOperations",
+    "address": "LocalHost",
+    "database": "aOperations",
+    "live": false,
+    "title": "Operations"
+  },
+  "filters": [
+    {
+      "jaql": {
+        "table": "dwh_fact_number_of_if_per_so",
+        "column": "date_created",
+        "dim": "[dwh_fact_number_of_if_per_so.date_created (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "level": "years",
+        "collapsed": true,
+        "title": "Years in date_created",
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/Operations",
+          "id": "localhost_aOperations",
+          "address": "LocalHost",
+          "database": "aOperations",
+          "live": false,
+          "title": "Operations"
+        },
+        "firstday": "mon",
+        "locale": "en-us",
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "2024-01-01T00:00:00"
+          ]
+        }
+      },
+      "instanceid": "88E0C-4754-94",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "dwh_fact_number_of_if_per_so",
+        "column": "sales_order_type",
+        "dim": "[dwh_fact_number_of_if_per_so.sales_order_type]",
+        "datatype": "text",
+        "merged": true,
+        "collapsed": true,
+        "title": "sales_order_type",
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/Operations",
+          "id": "localhost_aOperations",
+          "address": "LocalHost",
+          "database": "aOperations",
+          "live": false,
+          "title": "Operations"
+        },
+        "firstday": "mon",
+        "locale": "en-us",
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "COGS",
+            "Expansion"
+          ]
+        }
+      },
+      "instanceid": "358E7-959F-C6",
+      "isCascading": false,
+      "disabled": true
+    },
+    {
+      "jaql": {
+        "datatype": "datetime",
+        "dim": "[dwh_fact_number_of_if_per_so.date_created (Calendar)]",
+        "title": "Months in Date Created",
+        "level": "months",
+        "column": "date_created",
+        "table": "dwh_fact_number_of_if_per_so",
+        "datasource": {
+          "fullname": "localhost/Operations",
+          "id": "localhost_aOperations",
+          "address": "LocalHost",
+          "database": "aOperations",
+          "live": false,
+          "title": "Operations"
+        },
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "merged": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "9ED70-28F2-BC",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "datatype": "datetime",
+        "dim": "[dwh_fact_dops_sc_all_timestamps.pod_date (Calendar)]",
+        "title": "Months in pod_date",
+        "level": "months",
+        "column": "pod_date",
+        "table": "dwh_fact_dops_sc_all_timestamps",
+        "datasource": {
+          "fullname": "localhost/Operations",
+          "id": "localhost_aOperations",
+          "address": "LocalHost",
+          "database": "aOperations",
+          "live": false,
+          "title": "Operations"
+        },
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "merged": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "CCB71-8909-B1",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "datatype": "text",
+        "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+        "title": "# of Item Fulfillments per Sales Order",
+        "column": "if_num",
+        "table": "dwh_fact_number_of_if_per_so",
+        "datasource": {
+          "fullname": "localhost/Operations",
+          "id": "localhost_aOperations",
+          "address": "LocalHost",
+          "database": "aOperations",
+          "live": false,
+          "title": "Operations"
+        },
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "merged": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "FDD3B-2C55-F4",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "editing": false,
+  "parentFolder": "677fca2d438c7900338d4d04",
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "allowChangeSubscription": false,
+  "isPublic": null,
+  "subscription": {
+    "executionPerDay": 1,
+    "schedule": "0 0 0 15,30 * *",
+    "isDataChange": false,
+    "type": "monthly",
+    "reportType": {
+      "pdf": {
+        "includeTitle": true,
+        "includeFilters": true,
+        "includeDS": true,
+        "renderingInfo": {
+          "paperFormat": "A4",
+          "paperOrientation": "landscape",
+          "layout": "asis"
+        }
+      }
+    },
+    "emailSettings": {
+      "isEmail": false,
+      "isPdf": true
+    },
+    "context": {
+      "dashboardid": "627181d2485e3400365ca708"
+    },
+    "startAt": "2022-05-03",
+    "tzName": "America/New_York",
+    "timezone": 300,
+    "active": false,
+    "custom": false,
+    "subscribe": false
+  },
+  "previewLayout": [],
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "dwh_fact_number_of_if_per_so",
+        "column": "date_created",
+        "dim": "[dwh_fact_number_of_if_per_so.date_created (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "level": "years",
+        "collapsed": true,
+        "title": "Years in date_created",
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/Operations",
+          "id": "localhost_aOperations",
+          "address": "LocalHost",
+          "database": "aOperations",
+          "live": false,
+          "title": "Operations"
+        },
+        "firstday": "mon",
+        "locale": "en-us",
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "2024-01-01T00:00:00"
+          ]
+        }
+      },
+      "instanceid": "88E0C-4754-94",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "dwh_fact_number_of_if_per_so",
+        "column": "sales_order_type",
+        "dim": "[dwh_fact_number_of_if_per_so.sales_order_type]",
+        "datatype": "text",
+        "merged": true,
+        "collapsed": true,
+        "title": "sales_order_type",
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/Operations",
+          "id": "localhost_aOperations",
+          "address": "LocalHost",
+          "database": "aOperations",
+          "live": false,
+          "title": "Operations"
+        },
+        "firstday": "mon",
+        "locale": "en-us",
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "COGS",
+            "Expansion"
+          ]
+        }
+      },
+      "instanceid": "358E7-959F-C6",
+      "isCascading": false,
+      "disabled": true
+    },
+    {
+      "jaql": {
+        "datatype": "datetime",
+        "dim": "[dwh_fact_number_of_if_per_so.date_created (Calendar)]",
+        "title": "Months in Date Created",
+        "level": "months",
+        "column": "date_created",
+        "table": "dwh_fact_number_of_if_per_so",
+        "datasource": {
+          "fullname": "localhost/Operations",
+          "id": "localhost_aOperations",
+          "address": "LocalHost",
+          "database": "aOperations",
+          "live": false,
+          "title": "Operations"
+        },
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "merged": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "9ED70-28F2-BC",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "datatype": "datetime",
+        "dim": "[dwh_fact_dops_sc_all_timestamps.pod_date (Calendar)]",
+        "title": "Months in pod_date",
+        "level": "months",
+        "column": "pod_date",
+        "table": "dwh_fact_dops_sc_all_timestamps",
+        "datasource": {
+          "fullname": "localhost/Operations",
+          "id": "localhost_aOperations",
+          "address": "LocalHost",
+          "database": "aOperations",
+          "live": false,
+          "title": "Operations"
+        },
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "merged": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "CCB71-8909-B1",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "datatype": "text",
+        "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+        "title": "# of Item Fulfillments per Sales Order",
+        "column": "if_num",
+        "table": "dwh_fact_number_of_if_per_so",
+        "datasource": {
+          "fullname": "localhost/Operations",
+          "id": "localhost_aOperations",
+          "address": "LocalHost",
+          "database": "aOperations",
+          "live": false,
+          "title": "Operations"
+        },
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "merged": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "FDD3B-2C55-F4",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "defaultFilterRelations": null,
+  "filterToDatasourceMapping": {},
+  "filterRelations": [],
+  "widgets": [
+    {
+      "title": "# of IF / Month",
+      "type": "pivot2",
+      "subtype": "pivot2",
+      "oid": "62b5fcb7485e3400365ee73f",
+      "desc": null,
+      "source": "67a86907fda6120033cc37fe",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Operations",
+        "id": "localhost_aOperations",
+        "database": "aOperations",
+        "fullname": "localhost/Operations",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "date_created",
+                  "dim": "[dwh_fact_number_of_if_per_so.date_created (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Months in (Date Created)",
+                  "sort": "desc",
+                  "sortDetails": {
+                    "field": 0,
+                    "dir": "desc",
+                    "sortingLastDimension": false,
+                    "initialized": true,
+                    "isLastApplied": true
+                  }
+                },
+                "instanceid": "E767A-2FB7-82",
+                "panel": "rows",
+                "field": {
+                  "id": "[dwh_fact_number_of_if_per_so.date_created (Calendar)]_months",
+                  "index": 0
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "dateAndTime": "MM/dd/y HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              },
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "if_num",
+                  "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "# of Shipments"
+                },
+                "instanceid": "AE402-36F4-3E",
+                "panel": "rows",
+                "field": {
+                  "id": "[dwh_fact_number_of_if_per_so.if_num]",
+                  "index": 1
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "so_num",
+                  "dim": "[dwh_fact_number_of_if_per_so.so_num]",
+                  "datatype": "text",
+                  "merged": true,
+                  "agg": "count",
+                  "title": "# of Sales Order"
+                },
+                "instanceid": "9DD3E-E266-39",
+                "panel": "measures",
+                "field": {
+                  "id": "[dwh_fact_number_of_if_per_so.so_num]_count",
+                  "index": 2
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color"
+                  }
+                }
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "Contribution([AC3DA-0DE])",
+                  "context": {
+                    "[AC3DA-0DE]": {
+                      "table": "dwh_fact_number_of_if_per_so",
+                      "column": "so_num",
+                      "dim": "[dwh_fact_number_of_if_per_so.so_num]",
+                      "datatype": "text",
+                      "merged": true,
+                      "agg": "count",
+                      "title": "# of Sales Order"
+                    }
+                  },
+                  "title": "% of Month total",
+                  "datatype": "numeric"
+                },
+                "instanceid": "7D702-542E-AB",
+                "panel": "measures",
+                "field": {
+                  "id": "[dwh_fact_number_of_if_per_so.so_num]_count",
+                  "index": 3
+                },
+                "format": {
+                  "mask": {
+                    "type": "percent",
+                    "separated": true,
+                    "decimals": "2",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color"
+                  }
+                },
+                "originalJaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "so_num",
+                  "dim": "[dwh_fact_number_of_if_per_so.so_num]",
+                  "datatype": "text",
+                  "merged": true,
+                  "agg": "count",
+                  "title": "# of Sales Order"
+                },
+                "quickFunction": "Contribution"
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Number of IF Per SO",
+                  "column": "Count of Document Number",
+                  "dim": "[Number of IF Per SO.Count of Document Number]",
+                  "datatype": "numeric",
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "exclude": {
+                      "members": [
+                        "1"
+                      ]
+                    },
+                    "filter": {
+                      "turnedOff": true,
+                      "exclude": {
+                        "members": [
+                          "1"
+                        ]
+                      }
+                    }
+                  },
+                  "collapsed": true,
+                  "title": "Count of Document Number",
+                  "datasource": {
+                    "fullname": "localhost/Operations",
+                    "id": "localhost_aOperations",
+                    "address": "LocalHost",
+                    "database": "aOperations",
+                    "live": false,
+                    "title": "Operations"
+                  }
+                },
+                "panel": "scope",
+                "instanceid": "425F1-7C32-9A"
+              },
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "date_created",
+                  "dim": "[dwh_fact_number_of_if_per_so.date_created (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Months in (Date Created)",
+                  "sort": "desc",
+                  "sortDetails": {
+                    "field": 0,
+                    "dir": "desc",
+                    "sortingLastDimension": false,
+                    "initialized": true,
+                    "isLastApplied": true
+                  },
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                  },
+                  "collapsed": true,
+                  "datasource": {
+                    "fullname": "localhost/Operations",
+                    "id": "localhost_aOperations",
+                    "address": "LocalHost",
+                    "database": "aOperations",
+                    "live": false,
+                    "title": "Operations"
+                  }
+                },
+                "instanceid": "B8A73-3CD4-EE",
+                "panel": "scope",
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "dateAndTime": "MM/dd/y HH:mm",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "scroll": false,
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "months_in_(date_created)",
+              "title": "Months in (Date Created)",
+              "singular": "Months in (Date Created)",
+              "plural": "Months in (Date Created)"
+            },
+            {
+              "id": "#_of_shipments",
+              "title": "# of Shipments",
+              "singular": "# of Shipments",
+              "plural": "# of Shipments"
+            },
+            {
+              "id": "count_of_document_number",
+              "title": "Count of Document Number",
+              "singular": "Count of Document Number",
+              "plural": "Count of Document Number"
+            }
+          ]
+        }
+      },
+      "instanceid": "A25EC-5680-49",
+      "cumSettings": [],
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "saveDisabledTargetFilters": false,
+        "drillToDashboardByName": false
+      },
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "imageColumns": [],
+        "aiFeatures": [
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "# of SO",
+                  "% Contribution/month"
+                ],
+                "value": "# of SO"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ]
+      },
+      "dashboardid": "627181d2485e3400365ca708",
+      "prevSortObjects": [],
+      "realTimeRefreshing": false
+    },
+    {
+      "title": "# of shipments breakdown",
+      "type": "chart/pie",
+      "subtype": "pie/donut",
+      "oid": "62b5fcba485e3400365ee741",
+      "desc": null,
+      "source": "67a86907fda6120033cc37ff",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Operations",
+        "id": "localhost_aOperations",
+        "database": "aOperations",
+        "fullname": "localhost/Operations",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "drillHistory": [
+          {
+            "jaql": {
+              "table": "dwh_fact_pod_vs_req_in_out_sla",
+              "column": "rca_late_occurrences",
+              "dim": "[dwh_fact_pod_vs_req_in_out_sla.rca_late_occurrences]",
+              "datatype": "text",
+              "merged": true,
+              "title": "rca_late_occurrences"
+            },
+            "parent": {
+              "jaql": {
+                "table": "dwh_fact_number_of_if_per_so",
+                "column": "if_num",
+                "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+                "datatype": "text",
+                "merged": true,
+                "title": "# of Item Fulfillments per Sales Order"
+              },
+              "instanceid": "4525F-49F0-C5",
+              "format": {
+                "members": {
+                  "1": {
+                    "color": "#00cee6",
+                    "title": "1",
+                    "sortData": "1",
+                    "inResultset": true
+                  },
+                  "2": {
+                    "color": "#9b9bd7",
+                    "title": "2",
+                    "sortData": "2",
+                    "inResultset": true
+                  },
+                  "3": {
+                    "color": "#6EDA55",
+                    "title": "3",
+                    "sortData": "3",
+                    "isHandPickedColor": true,
+                    "inResultset": true
+                  },
+                  "4": {
+                    "color": "#fc7570",
+                    "title": "4",
+                    "sortData": "4",
+                    "inResultset": true
+                  },
+                  "5": {
+                    "color": "#fbb755",
+                    "title": "5",
+                    "sortData": "5",
+                    "inResultset": true
+                  },
+                  "6": {
+                    "color": "#218A8C",
+                    "title": "6",
+                    "sortData": "6",
+                    "inResultset": true
+                  },
+                  "7": {
+                    "color": "#06e5ff",
+                    "title": "7",
+                    "sortData": 7,
+                    "inResultset": true
+                  },
+                  "10": {
+                    "color": "#b2b2f7",
+                    "title": "10",
+                    "sortData": 10,
+                    "isHandPickedColor": true,
+                    "inResultset": true
+                  }
+                }
+              }
+            },
+            "through": {
+              "jaql": {
+                "datatype": "text",
+                "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+                "title": "# of Item Fulfillments per Sales Order",
+                "column": "if_num",
+                "table": "dwh_fact_number_of_if_per_so",
+                "filter": {
+                  "explicit": true,
+                  "multiSelection": true,
+                  "members": [
+                    "2"
+                  ]
+                }
+              }
+            },
+            "format": {
+              "members": {}
+            }
+          },
+          {
+            "jaql": {
+              "table": "dwh_fact_lt_vs_requested_date",
+              "column": "region",
+              "dim": "[dwh_fact_lt_vs_requested_date.region]",
+              "datatype": "text",
+              "merged": true,
+              "title": "region"
+            },
+            "parent": {
+              "jaql": {
+                "table": "dwh_fact_number_of_if_per_so",
+                "column": "if_num",
+                "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+                "datatype": "text",
+                "merged": true,
+                "title": "# of Item Fulfillments per Sales Order"
+              },
+              "instanceid": "4525F-49F0-C5",
+              "format": {
+                "members": {
+                  "3": {
+                    "color": "#6EDA55",
+                    "title": "3",
+                    "sortData": "3",
+                    "isHandPickedColor": true
+                  },
+                  "10": {
+                    "color": "#b2b2f7",
+                    "title": "10",
+                    "sortData": 10,
+                    "isHandPickedColor": true
+                  }
+                }
+              }
+            },
+            "through": {
+              "jaql": {
+                "datatype": "text",
+                "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+                "title": "# of Item Fulfillments per Sales Order",
+                "column": "if_num",
+                "table": "dwh_fact_number_of_if_per_so",
+                "filter": {
+                  "explicit": true,
+                  "multiSelection": true,
+                  "members": [
+                    "2"
+                  ]
+                }
+              }
+            },
+            "format": {
+              "members": {
+                "- None -": {
+                  "color": "#00cee6",
+                  "title": "- None -",
+                  "sortData": "- None -",
+                  "inResultset": true
+                },
+                "Europe/Israel": {
+                  "color": "#9b9bd7",
+                  "title": "Europe/Israel",
+                  "sortData": "Europe/Israel",
+                  "isHandPickedColor": true,
+                  "inResultset": true
+                },
+                "LATAM": {
+                  "color": "#6EDA55",
+                  "title": "LATAM",
+                  "sortData": "LATAM",
+                  "isHandPickedColor": true,
+                  "inResultset": true
+                },
+                "New Geo": {
+                  "color": "#fc7570",
+                  "title": "New Geo",
+                  "sortData": "New Geo",
+                  "isHandPickedColor": true,
+                  "inResultset": true
+                },
+                "North America": {
+                  "color": "#fbb755",
+                  "title": "North America",
+                  "sortData": "North America",
+                  "isHandPickedColor": true,
+                  "inResultset": true
+                }
+              }
+            }
+          }
+        ],
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "if_num",
+                  "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "# of Item Fulfillments per Sales Order"
+                },
+                "instanceid": "4525F-49F0-C5",
+                "format": {
+                  "members": {
+                    "3": {
+                      "color": "#6EDA55",
+                      "title": "3",
+                      "sortData": "3",
+                      "isHandPickedColor": true
+                    },
+                    "10": {
+                      "color": "#b2b2f7",
+                      "title": "10",
+                      "sortData": 10,
+                      "isHandPickedColor": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(DUPCOUNT([FF6B6-05A]),[0E2E5-2E1])",
+                  "context": {
+                    "[0E2E5-2E1]": {
+                      "table": "dwh_fact_number_of_if_per_so",
+                      "column": "date_created",
+                      "dim": "[dwh_fact_number_of_if_per_so.date_created (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "months",
+                      "title": "Months in date_created"
+                    },
+                    "[FF6B6-05A]": {
+                      "table": "dwh_fact_number_of_if_per_so",
+                      "column": "if_num",
+                      "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "if_num"
+                    }
+                  },
+                  "title": "Count of # IF"
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": "auto",
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "color_bkp": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                },
+                "instanceid": "44D2B-B0BE-86"
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "legend": {
+          "enabled": false,
+          "position": "left"
+        },
+        "labels": {
+          "enabled": true,
+          "categories": true,
+          "value": true,
+          "percent": true,
+          "decimals": false,
+          "fontFamily": "Open Sans",
+          "color": "red"
+        },
+        "convolution": {
+          "enabled": true,
+          "selectedConvolutionType": "byPercentage",
+          "minimalIndependentSlicePercentage": 3,
+          "independentSlicesCount": 7
+        },
+        "dataLimits": {
+          "seriesCapacity": 100000
+        },
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": false,
+            "enabled": true
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "#_of_item_fulfillments_per_sales_order",
+              "title": "# of Item Fulfillments per Sales Order",
+              "singular": "# of Item Fulfillments per Sales Order",
+              "plural": "# of Item Fulfillments per Sales Order"
+            }
+          ]
+        },
+        "automaticHeight": false
+      },
+      "instanceid": "E6540-B7DB-D0",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "saveDisabledTargetFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "selectorLocked": false,
+        "previousScrollerLocation": {
+          "min": null,
+          "max": null
+        }
+      },
+      "dashboardid": "627181d2485e3400365ca708",
+      "realTimeRefreshing": false
+    },
+    {
+      "title": "# of shipments breakdown (Installations)",
+      "type": "chart/column",
+      "subtype": "column/stackedcolumn",
+      "oid": "6346c603e60a7f003780401a",
+      "desc": null,
+      "source": "67a86907fda6120033cc3800",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Operations",
+        "id": "localhost_aOperations",
+        "database": "aOperations",
+        "fullname": "localhost/Operations",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "date_created",
+                  "dim": "[dwh_fact_number_of_if_per_so.date_created (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Months in Date Created"
+                },
+                "instanceid": "1E3F8-0AE3-EC",
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "dateAndTime": "MM/dd/y HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ],
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(DUPCOUNT([70A6E-67F]),[5A37B-44C])",
+                  "context": {
+                    "[5A37B-44C]": {
+                      "table": "dwh_fact_number_of_if_per_so",
+                      "column": "date_created",
+                      "dim": "[dwh_fact_number_of_if_per_so.date_created (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "months",
+                      "title": "Months in date_created"
+                    },
+                    "[70A6E-67F]": {
+                      "table": "dwh_fact_number_of_if_per_so",
+                      "column": "if_num",
+                      "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "if_num"
+                    }
+                  },
+                  "title": "# of Shipments"
+                },
+                "instanceid": "0B5DB-7367-23",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                },
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "if_num",
+                  "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "if_num"
+                },
+                "instanceid": "28EB3-EA79-2A",
+                "format": {
+                  "members": {
+                    "5": {
+                      "color": "#fbb755",
+                      "title": "5",
+                      "sortData": "5",
+                      "isHandPickedColor": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "date_created",
+                  "dim": "[dwh_fact_number_of_if_per_so.date_created (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "quarters",
+                  "filter": {
+                    "last": {
+                      "count": 2,
+                      "offset": 0
+                    }
+                  },
+                  "title": "Quarters in date_created",
+                  "collapsed": true,
+                  "datasource": {
+                    "fullname": "localhost/Operations",
+                    "id": "localhost_aOperations",
+                    "address": "LocalHost",
+                    "database": "aOperations",
+                    "live": false,
+                    "title": "Operations"
+                  }
+                },
+                "instanceid": "68993-F54A-95",
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "dateAndTime": "MM/dd/y HH:mm",
+                    "isdefault": true
+                  }
+                }
+              },
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "sales_order_type",
+                  "dim": "[dwh_fact_number_of_if_per_so.sales_order_type]",
+                  "datatype": "text",
+                  "merged": true,
+                  "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                      "COGS",
+                      "Expansion"
+                    ]
+                  },
+                  "collapsed": true,
+                  "title": "Sales Order Type",
+                  "datasource": {
+                    "fullname": "localhost/Operations",
+                    "id": "localhost_aOperations",
+                    "address": "LocalHost",
+                    "database": "aOperations",
+                    "live": false,
+                    "title": "Operations"
+                  }
+                },
+                "instanceid": "136B4-CC8B-30"
+              }
+            ]
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0,
+          "labels": {
+            "enabled": true,
+            "types": {
+              "count": false,
+              "percentage": false,
+              "relative": true,
+              "totals": true
+            },
+            "stacked": true,
+            "stackedPercentage": false
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "months_in_date_created",
+              "title": "Months in Date Created",
+              "singular": "Months in Date Created",
+              "plural": "Months in Date Created"
+            },
+            {
+              "id": "if_num",
+              "title": "if_num",
+              "singular": "if_num",
+              "plural": "if_num"
+            },
+            {
+              "id": "quarters_in_date_created",
+              "title": "Quarters in Date Created",
+              "singular": "Quarters in Date Created",
+              "plural": "Quarters in Date Created"
+            },
+            {
+              "id": "sales_order_type",
+              "title": "Sales Order Type",
+              "singular": "Sales Order Type",
+              "plural": "Sales Order Type"
+            }
+          ]
+        }
+      },
+      "instanceid": "7765C-E27E-C0",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "saveDisabledTargetFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "aiFeatures": [
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "# of Shipments"
+                ],
+                "value": "# of Shipments"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "previousScrollerLocation": {
+          "min": null,
+          "max": null
+        }
+      },
+      "dashboardid": "627181d2485e3400365ca708",
+      "cumSettings": [],
+      "prevSortObjects": [],
+      "realTimeRefreshing": false
+    },
+    {
+      "title": "Avg. # of Shipments - Global",
+      "type": "indicator",
+      "subtype": "indicator/numeric",
+      "oid": "64553f190a2d8d003609bf4a",
+      "desc": null,
+      "source": "67a86907fda6120033cc3801",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Operations",
+        "id": "localhost_aOperations",
+        "database": "aOperations",
+        "fullname": "localhost/Operations",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "sum([9CC6E-D5A])/DUPCOUNT([9CC6E-D5A])",
+                  "context": {
+                    "[9CC6E-D5A]": {
+                      "table": "dwh_fact_number_of_if_per_so",
+                      "column": "if_num",
+                      "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+                      "datatype": "numeric",
+                      "title": "If Num"
+                    }
+                  },
+                  "title": "Avg. # of Shipments per Sales Order"
+                },
+                "instanceid": "DC6F6-424E-2D",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "count([0CF4E-D83])",
+                  "context": {
+                    "[0CF4E-D83]": {
+                      "table": "dwh_fact_number_of_if_per_so",
+                      "column": "so_num",
+                      "dim": "[dwh_fact_number_of_if_per_so.so_num]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "so_num"
+                    }
+                  },
+                  "title": "# of Unique Sales Orders"
+                },
+                "instanceid": "7E0CE-263B-F4",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": false,
+            "enabled": true
+          }
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "8E4BD-864E-3C",
+      "prevSortObjects": [],
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "saveDisabledTargetFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "dashboardid": "627181d2485e3400365ca708",
+      "realTimeRefreshing": false
+    },
+    {
+      "title": "Avg. # of Shipments / SO type",
+      "type": "chart/bar",
+      "subtype": "bar/classic",
+      "oid": "645540050a2d8d003609bf52",
+      "desc": null,
+      "source": "67a86907fda6120033cc3802",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Operations",
+        "id": "localhost_aOperations",
+        "database": "aOperations",
+        "fullname": "localhost/Operations",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "sales_order_type",
+                  "dim": "[dwh_fact_number_of_if_per_so.sales_order_type]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Sales Order Type"
+                },
+                "instanceid": "73301-C33F-7A",
+                "panel": "rows",
+                "field": {
+                  "id": "[dwh_fact_number_of_if_per_so.sales_order_type]",
+                  "index": 0
+                },
+                "format": {
+                  "continuous": false
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[CAA4A-1DA]/[AEB46-FF7]",
+                  "context": {
+                    "[CAA4A-1DA]": {
+                      "table": "dwh_fact_number_of_if_per_so",
+                      "column": "if_num",
+                      "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total if_num"
+                    },
+                    "[AEB46-FF7]": {
+                      "table": "dwh_fact_number_of_if_per_so",
+                      "column": "if_num",
+                      "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+                      "datatype": "numeric",
+                      "agg": "countduplicates",
+                      "title": "# of if_num"
+                    }
+                  },
+                  "title": "Avg. # of Shipments",
+                  "datatype": "numeric",
+                  "sort": "desc"
+                },
+                "instanceid": "B7C4C-CB20-CE",
+                "panel": "measures",
+                "field": {
+                  "id": "[dwh_fact_number_of_if_per_so.if_num]_sum",
+                  "index": 1
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "rangeMode": "auto",
+                    "type": "range",
+                    "steps": 0
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "sales_order_type",
+                  "dim": "[dwh_fact_number_of_if_per_so.sales_order_type]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Sales Order Type",
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "exclude": {
+                      "members": [
+                        "General",
+                        "Renewal",
+                        "Renewal - Finance",
+                        "COGS - Finance"
+                      ]
+                    }
+                  },
+                  "collapsed": true,
+                  "datasource": {
+                    "fullname": "localhost/Operations",
+                    "id": "localhost_aOperations",
+                    "address": "LocalHost",
+                    "database": "aOperations",
+                    "live": false,
+                    "title": "Operations"
+                  }
+                },
+                "instanceid": "DA6B4-C790-F9"
+              }
+            ]
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0,
+          "labels": {
+            "enabled": false,
+            "types": {
+              "count": false,
+              "percentage": false,
+              "relative": false,
+              "totals": false
+            },
+            "stacked": false,
+            "stackedPercentage": false
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "sales_order_type",
+              "title": "sales_order_type",
+              "singular": "sales_order_type",
+              "plural": "sales_order_type"
+            }
+          ]
+        }
+      },
+      "instanceid": "338DC-0CDB-03",
+      "prevSortObjects": [],
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "saveDisabledTargetFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "aiFeatures": [
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "Avg. # of Shipments"
+                ],
+                "value": "Avg. # of Shipments"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "previousScrollerLocation": {
+          "min": null,
+          "max": null
+        },
+        "selectorLocked": false
+      },
+      "dashboardid": "627181d2485e3400365ca708",
+      "realTimeRefreshing": false
+    },
+    {
+      "title": "Change in Avg. # of Shipments - MoM",
+      "type": "chart/line",
+      "subtype": "line/spline",
+      "oid": "645541bb0a2d8d003609bf63",
+      "desc": null,
+      "source": "67a86907fda6120033cc3803",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Operations",
+        "id": "localhost_aOperations",
+        "database": "aOperations",
+        "fullname": "localhost/Operations",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "date_created",
+                  "dim": "[dwh_fact_number_of_if_per_so.date_created (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "quarters",
+                  "title": "Quarters in date_created"
+                },
+                "instanceid": "DD6FB-2B33-DD",
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "dateAndTime": "MM/dd/y HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ],
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[CAA4A-1DA]/[AEB46-FF7]",
+                  "context": {
+                    "[CAA4A-1DA]": {
+                      "table": "dwh_fact_number_of_if_per_so",
+                      "column": "if_num",
+                      "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total if_num"
+                    },
+                    "[AEB46-FF7]": {
+                      "table": "dwh_fact_number_of_if_per_so",
+                      "column": "if_num",
+                      "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+                      "datatype": "numeric",
+                      "agg": "countduplicates",
+                      "title": "# of if_num"
+                    }
+                  },
+                  "title": "Avg. # of Shipments",
+                  "datatype": "numeric"
+                },
+                "instanceid": "B7C4C-CB20-CE",
+                "panel": "measures",
+                "field": {
+                  "id": "[dwh_fact_number_of_if_per_so.if_num]_sum",
+                  "index": 1
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color_bkp": {
+                    "type": "color",
+                    "colorIndex": 0
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "sales_order_type",
+                  "dim": "[dwh_fact_number_of_if_per_so.sales_order_type]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Sales Order Type"
+                },
+                "instanceid": "82C42-29C1-25",
+                "format": {
+                  "members": {
+                    "On Site Spares": {
+                      "color": "#fbb755",
+                      "title": "On Site Spares",
+                      "sortData": "On Site Spares",
+                      "isHandPickedColor": true
+                    },
+                    "PRO RMA": {
+                      "color": "#218A8C",
+                      "title": "PRO RMA",
+                      "sortData": "PRO RMA",
+                      "isHandPickedColor": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "sales_order_type",
+                  "dim": "[dwh_fact_number_of_if_per_so.sales_order_type]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Sales Order Type",
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "exclude": {
+                      "members": [
+                        "General",
+                        "Renewal",
+                        "Renewal - Finance"
+                      ]
+                    }
+                  },
+                  "collapsed": true,
+                  "datasource": {
+                    "fullname": "localhost/Operations",
+                    "id": "localhost_aOperations",
+                    "address": "LocalHost",
+                    "database": "aOperations",
+                    "live": false,
+                    "title": "Operations"
+                  }
+                },
+                "instanceid": "81980-F607-0C",
+                "title": "Sales Order Type"
+              }
+            ]
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "lineWidth": {
+          "width": "bold"
+        },
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0
+        },
+        "markers": {
+          "enabled": true,
+          "fill": "filled",
+          "size": "small"
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "quarters_in_date_created",
+              "title": "Quarters in date_created",
+              "singular": "Quarters in date_created",
+              "plural": "Quarters in date_created"
+            },
+            {
+              "id": "sales_order_type",
+              "title": "sales_order_type",
+              "singular": "sales_order_type",
+              "plural": "sales_order_type"
+            }
+          ]
+        }
+      },
+      "instanceid": "B9B18-1107-AE",
+      "prevSortObjects": [],
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "saveDisabledTargetFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "aiFeatures": [
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "Avg. # of Shipments"
+                ],
+                "value": "Avg. # of Shipments"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "previousScrollerLocation": {
+          "min": null,
+          "max": null
+        },
+        "selectorLocked": false
+      },
+      "dashboardid": "627181d2485e3400365ca708",
+      "cumSettings": [],
+      "realTimeRefreshing": false
+    },
+    {
+      "title": "Avg. # of Shipments / SO type",
+      "type": "pivot2",
+      "subtype": "pivot2",
+      "oid": "646534ba0a2d8d00360aac8f",
+      "desc": null,
+      "source": "67a86907fda6120033cc3804",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Operations",
+        "id": "localhost_aOperations",
+        "database": "aOperations",
+        "fullname": "localhost/Operations",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "sales_order_type",
+                  "dim": "[dwh_fact_number_of_if_per_so.sales_order_type]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Sales Order Type"
+                },
+                "instanceid": "73301-C33F-7A",
+                "panel": "rows",
+                "field": {
+                  "id": "[dwh_fact_number_of_if_per_so.sales_order_type]",
+                  "index": 0
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[CAA4A-1DA]/[AEB46-FF7]",
+                  "context": {
+                    "[CAA4A-1DA]": {
+                      "table": "dwh_fact_number_of_if_per_so",
+                      "column": "if_num",
+                      "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total if_num"
+                    },
+                    "[AEB46-FF7]": {
+                      "table": "dwh_fact_number_of_if_per_so",
+                      "column": "if_num",
+                      "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+                      "datatype": "numeric",
+                      "agg": "countduplicates",
+                      "title": "# of if_num"
+                    }
+                  },
+                  "title": "Avg. # of Shipments",
+                  "datatype": "numeric"
+                },
+                "instanceid": "B7C4C-CB20-CE",
+                "panel": "measures",
+                "field": {
+                  "id": "[dwh_fact_number_of_if_per_so.if_num]_sum",
+                  "index": 2
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "date_created",
+                  "dim": "[dwh_fact_number_of_if_per_so.date_created (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "quarters",
+                  "title": "Quarters in date_created"
+                },
+                "instanceid": "4A889-07FF-95",
+                "panel": "columns",
+                "field": {
+                  "id": "[dwh_fact_number_of_if_per_so.date_created (Calendar)]_months",
+                  "index": 1
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "dateAndTime": "MM/dd/y HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "sales_order_type",
+                  "dim": "[dwh_fact_number_of_if_per_so.sales_order_type]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Sales Order Type",
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "exclude": {
+                      "members": [
+                        "General",
+                        "Renewal",
+                        "Renewal - Finance",
+                        "COGS - Finance"
+                      ]
+                    }
+                  },
+                  "collapsed": true,
+                  "datasource": {
+                    "fullname": "localhost/Operations",
+                    "id": "localhost_aOperations",
+                    "address": "LocalHost",
+                    "database": "aOperations",
+                    "live": false,
+                    "title": "Operations"
+                  }
+                },
+                "instanceid": "FF199-DAC1-5D",
+                "panel": "scope",
+                "title": "Sales Order Type"
+              }
+            ]
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "scroll": false,
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "sales_order_type",
+              "title": "sales_order_type",
+              "singular": "sales_order_type",
+              "plural": "sales_order_type"
+            },
+            {
+              "id": "quarters_in_date_created",
+              "title": "Quarters in date_created",
+              "singular": "Quarters in date_created",
+              "plural": "Quarters in date_created"
+            }
+          ]
+        }
+      },
+      "instanceid": "8E28E-3FF1-97",
+      "prevSortObjects": [],
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "saveDisabledTargetFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "imageColumns": [],
+        "autoUpdateOnEveryChange": true,
+        "selectorLocked": false
+      },
+      "dashboardid": "627181d2485e3400365ca708",
+      "realTimeRefreshing": false
+    },
+    {
+      "title": "",
+      "type": "pivot2",
+      "subtype": "pivot2",
+      "oid": "646bbb7d0a2d8d00360b2138",
+      "desc": null,
+      "source": "67a86907fda6120033cc3805",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Operations",
+        "id": "localhost_aOperations",
+        "database": "aOperations",
+        "fullname": "localhost/Operations",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "so_num",
+                  "dim": "[dwh_fact_number_of_if_per_so.so_num]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "SO_Num"
+                },
+                "instanceid": "ADAB9-7C27-7C",
+                "panel": "rows",
+                "field": {
+                  "id": "[dwh_fact_number_of_if_per_so.so_num]",
+                  "index": 0
+                }
+              },
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "sales_order_type",
+                  "dim": "[dwh_fact_number_of_if_per_so.sales_order_type]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "SO Type"
+                },
+                "instanceid": "C4069-2455-8D",
+                "panel": "rows",
+                "field": {
+                  "id": "[dwh_fact_number_of_if_per_so.sales_order_type]",
+                  "index": 1
+                }
+              },
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "date_created",
+                  "dim": "[dwh_fact_number_of_if_per_so.date_created (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Months in date_created"
+                },
+                "instanceid": "C0D6A-8EC8-AE",
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "dateAndTime": "MM/dd/y HH:mm",
+                    "isdefault": true
+                  },
+                  "width": 119.77084350585938
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ],
+                "panel": "rows",
+                "field": {
+                  "id": "[dwh_fact_number_of_if_per_so.date_created (Calendar)]_months",
+                  "index": 2
+                }
+              },
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "if_num",
+                  "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+                  "datatype": "numeric",
+                  "title": "IF_Num"
+                },
+                "instanceid": "0C819-76E5-78",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[dwh_fact_number_of_if_per_so.if_num]",
+                  "index": 3
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dwh_fact_open_sales_orders_by_line",
+                  "column": "quantity",
+                  "dim": "[dwh_fact_open_sales_orders_by_line.quantity]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total quantity"
+                },
+                "instanceid": "30887-1FA4-60",
+                "panel": "measures",
+                "field": {
+                  "id": "[dwh_fact_open_sales_orders_by_line.quantity]_sum",
+                  "index": 5
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dwh_fact_open_sales_orders_by_line",
+                  "column": "DaaS",
+                  "dim": "[dwh_fact_open_sales_orders_by_line.DaaS]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "DaaS"
+                },
+                "instanceid": "CA0D4-B8B3-13",
+                "panel": "columns",
+                "field": {
+                  "id": "[dwh_fact_open_sales_orders_by_line.DaaS]",
+                  "index": 4
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "if_num",
+                  "dim": "[dwh_fact_number_of_if_per_so.if_num]",
+                  "datatype": "numeric",
+                  "title": "if_num",
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "exclude": {
+                      "members": [
+                        "1"
+                      ]
+                    }
+                  },
+                  "collapsed": true,
+                  "datasource": {
+                    "fullname": "localhost/Operations",
+                    "id": "localhost_aOperations",
+                    "address": "LocalHost",
+                    "database": "aOperations",
+                    "live": false,
+                    "title": "Operations"
+                  }
+                },
+                "instanceid": "229C1-FC8B-6D",
+                "panel": "scope"
+              },
+              {
+                "jaql": {
+                  "table": "dwh_fact_number_of_if_per_so",
+                  "column": "sales_order_type",
+                  "dim": "[dwh_fact_number_of_if_per_so.sales_order_type]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "SO Type",
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "exclude": {
+                      "members": [
+                        "On Site Spares",
+                        "CUS RMA",
+                        "General",
+                        "PRO RMA",
+                        "Renewal",
+                        "Renewal - Finance"
+                      ]
+                    }
+                  },
+                  "collapsed": true,
+                  "datasource": {
+                    "fullname": "localhost/Operations",
+                    "id": "localhost_aOperations",
+                    "address": "LocalHost",
+                    "database": "aOperations",
+                    "live": false,
+                    "title": "Operations"
+                  }
+                },
+                "instanceid": "B545F-A3CB-D0",
+                "panel": "scope",
+                "title": "SO Type"
+              },
+              {
+                "jaql": {
+                  "table": "dwh_fact_open_sales_orders_by_line",
+                  "column": "DaaS",
+                  "dim": "[dwh_fact_open_sales_orders_by_line.DaaS]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "DaaS",
+                  "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                      "DAAS"
+                    ]
+                  },
+                  "collapsed": true,
+                  "datasource": {
+                    "fullname": "localhost/Operations",
+                    "id": "localhost_aOperations",
+                    "address": "LocalHost",
+                    "database": "aOperations",
+                    "live": false,
+                    "title": "Operations"
+                  }
+                },
+                "instanceid": "C86F7-EAFD-53",
+                "panel": "scope"
+              }
+            ]
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "scroll": false,
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "so_num",
+              "title": "so_num",
+              "singular": "so_num",
+              "plural": "so_num"
+            },
+            {
+              "id": "so_type",
+              "title": "SO Type",
+              "singular": "SO Type",
+              "plural": "SO Type"
+            },
+            {
+              "id": "months_in_date_created",
+              "title": "Months in date_created",
+              "singular": "Months in date_created",
+              "plural": "Months in date_created"
+            },
+            {
+              "id": "if_num",
+              "title": "if_num",
+              "singular": "if_num",
+              "plural": "if_num"
+            },
+            {
+              "id": "daas",
+              "title": "DaaS",
+              "singular": "DaaS",
+              "plural": "DaaS"
+            }
+          ]
+        }
+      },
+      "instanceid": "57DB7-6934-6F",
+      "prevSortObjects": [],
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "saveDisabledTargetFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "imageColumns": [],
+        "selectorLocked": false
+      },
+      "dashboardid": "627181d2485e3400365ca708",
+      "realTimeRefreshing": false
+    }
+  ],
+  "hierarchies": []
+}
