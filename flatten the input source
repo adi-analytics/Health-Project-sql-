@@ -1,0 +1,79 @@
+SELECT 
+id AS monday_item_id,
+state,
+SAFE_CAST(updated_at as Timestamp) as monday_item_updated_at,
+machine_id,
+failure_event_id,
+failure_session_link,
+coalesce(
+  REGEXP_EXTRACT(
+      failure_session_link,
+      r'analyze/([a-zA-Z0-9]+)'
+    ),
+  REGEXP_EXTRACT(
+      failure_session_link,
+      r'machines/([a-zA-Z0-9]+)/analyze'
+    )
+  ) AS failure_session_id,
+round(SAFE_CAST(failure_session_estimation_confidence as FLOAT64),2) failure_session_estimation_confidence,
+coalesce(SAFE_CAST(date_submitted as Timestamp), SAFE.PARSE_TIMESTAMP('%Y-%m-%d %H:%M', date_submitted)) AS date_submitted,
+coalesce(SAFE_CAST(date_of_failure as Timestamp), SAFE.PARSE_TIMESTAMP('%Y-%m-%d %H:%M', date_of_failure)) AS date_of_failure,
+date_trunc(safe_cast(substring(date_of_failure,1,10) as date ),month) month_of_failure,
+date_trunc(safe_cast(substring(date_submitted,1,10) as date ),month) month_reported,
+industry,
+is_customer_looking_for_report,
+is_it_a_miss,
+sub_reason,
+reason,
+miss_stage,
+other_sub_reason,
+other_flags,
+internal_review_notes,
+diagnostic_confidence,
+flags,
+rsm_reviewer_assigned,
+ai_opportunity,
+ai_labeled_failure_session,
+ai_review_notes,
+ai_reviewer_assigned
+ FROM
+(
+  SELECT
+     mmf.id
+    ,mmf.state
+    ,mmf.updated_at
+    ,cv.id as cv_id
+    ,nullif(case when cv.type in ('board_relation', 'mirror') then cv.display_value else cv.text end,'') as text
+  FROM `bi-production-336411.MRR.monday_machines_failure_repository` mmf
+  ,unnest(mmf.column_values) cv 
+)
+PIVOT
+(
+  max(text) 
+  FOR cv_id in (
+      'text__1' as machine_id
+      ,'text1__1' as failure_event_id 
+      ,'link_1' as failure_session_link
+      ,'numbers__1' as failure_session_estimation_confidence
+      ,'dup__of_date_of_event' as date_submitted
+      ,'date' as date_of_failure
+      ,'formula9' as month_of_failure
+      ,'formula6__1' as month_reported
+      ,'industry' as industry
+      ,'status2' as is_customer_looking_for_report
+      ,'status5' as is_it_a_miss
+      ,'connect_boards__1' as sub_reason
+      ,'mirror_1__1' as reason
+      ,'mirror__1' as miss_stage
+      ,'connect_boards1__1' as other_sub_reason
+      ,'dropdown8' as other_flags
+      ,'text7' as internal_review_notes
+      ,'status0' as diagnostic_confidence
+      ,'dropdown8' as flags
+      ,'people2' AS rsm_reviewer_assigned
+      ,'ai_subsubreason' as ai_opportunity
+      ,'link__1' as ai_labeled_failure_session
+      ,'ai_review_notes' as ai_review_notes
+      ,'people9' as ai_reviewer_assigned
+    ) 
+)
