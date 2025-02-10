@@ -1,0 +1,63 @@
+WITH
+  company_serviceability AS (
+  SELECT
+    company_id,
+    company_name,
+    SUM(fully_monitored_halo_machines) fully_monitored_halo_machines,
+    SUM(sufficiently_monitored_halo_machines) sufficiently_monitored_halo_machines,
+    SUM(not_monitored_halo_machines) not_monitored_halo_machines,
+    (SUM(fully_monitored_halo_machines)+SUM(sufficiently_monitored_halo_machines)+SUM(not_monitored_halo_machines)) total_halo_machines,
+    ((SUM(fully_monitored_halo_machines)+SUM(sufficiently_monitored_halo_machines))/(SUM(fully_monitored_halo_machines)+SUM(sufficiently_monitored_halo_machines)+SUM(not_monitored_halo_machines))) company_serviceability_rate,
+  FROM
+    `production-02cb28ec.sisense_dataset.vw_support_facility_high_level_planning`
+  GROUP BY
+    company_id,
+    company_name),
+
+
+  company_active_users as (SELECT company_id, company_name, count(distinct email) num_of_active_users_this_month /* num of users that added observation or repair under this hierarchy this month */ 
+FROM `bi-production-336411.VW.vw_active_users` 
+WHERE 
+  DATE_DIFF(current_date(), CAST(created_at as date), MONTH) = 0
+  and communication_type in ('Repair', 'Observation')
+GROUP BY company_id, company_name),
+
+company_response_rate as (
+  SELECT e.company_id, 
+  e.company_name,
+  (SUM(CASE WHEN alert_status_state='Addressed' and e.	
+alert_status_unaddressed_duration_seconds<=(60*60*24*7) THEN 1 ELSE 0 END)/(count(event_id))) response_rate,
+SUM(CASE WHEN alert_status_state='Addressed' and e.	
+alert_status_unaddressed_duration_seconds<=(60*60*24*7) THEN 1 ELSE 0 END) num_of_alerts_within_7_days,
+count(event_id) num_of_alerts
+FROM `bi-production-336411.DWH.dwh_fact_machine_events` e
+inner join `bi-production-336411.DWH.dwh_dim_machines` m on e.machine_id=m.machine_id
+WHERE m.offering_type_name like '%Halo%' 
+and data_level in (2,3) 
+and event_type in ('new_status')
+and alert_status_state in ('Addressed', 'UnAddressed')
+and DATE_DIFF(current_date(), CAST(e.created_at as date), DAY) <= 30
+GROUP BY e.company_id, e.company_name),
+
+misses_previous_12_month as (
+SELECT company_id, company_name, COUNT(date_of_failure) misses_previous_12_month
+FROM `bi-production-336411.DWH.dwh_fact_machines_failure_repository` 
+WHERE date_of_failure >= cast(date_add(current_date(), interval -12 month) as TIMESTAMP)
+and 	is_it_a_miss='Yes'
+GROUP BY company_id , company_name)
+
+
+SELECT
+  s.*,
+  ifnull(a.num_of_active_users_this_month,0) num_of_active_users_this_month,
+  ifnull(rr.response_rate,0) response_rate_this_month,
+  ifnull(m.misses_previous_12_month,0) misses_this_year,
+  (0.5*s.company_serviceability_rate+0.5*ifnull(rr.response_rate,0))*100 avg_customer_health_score,
+  (0.5*s.company_serviceability_rate+0.5*ifnull(rr.response_rate,0))*100-ifnull(m.misses_previous_12_month,0)+ifnull(a.num_of_active_users_this_month,0)
+  final_customer_health_score
+FROM
+  company_serviceability s
+  LEFT JOIN company_active_users a on s.company_id=a.company_id  
+  LEFT JOIN company_response_rate rr on s.company_id=rr.company_id
+  LEFT JOIN misses_previous_12_month m on s.company_id=m.company_id
+
